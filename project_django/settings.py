@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-3@5wx%(^*zl68l(o$^m-3%cvjv0g&mom1ra=oj5f048_al57s7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["web-production-ebf0.up.railway.app"]
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'widget_tweaks',
     'coursera_search'
 ]
-CSRF_TRUSTED_ORIGINS = ['web-production-ebf0.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ["*"]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
