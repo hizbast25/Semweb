@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'widget_tweaks',
     'coursera_search'
 ]
+CSRF_TRUSTED_ORIGINS = ['https://web-production-ebf0.up.railway.app']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
